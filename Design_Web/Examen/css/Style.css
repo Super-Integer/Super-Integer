@@ -1,0 +1,85 @@
+html{
+	font-size : 10px;
+}
+
+body{
+	color : yellow;
+	background-color: black;
+	font-size: 3rem;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+p{
+	font-size: 2rem;
+}
+
+._OFF{
+	margin-top: 15rem;
+}
+
+.pub{
+	color: green;
+}
+
+#_Pub{
+	width: 20%
+}
+
+.Nice{
+	color: red;
+}
+
+.Parallax{
+	/* The image used */
+  background-image: url("../img/APEX_LEGEND.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#IMG_Home_1{
+	width: 100%;
+}
+
+#IMG_Home_2{
+	width: 100%;
+	display: none;
+}
+
+#IMG_Home_3{
+	width: 100%;
+	display: none;
+}
+
+@media screen and (max-width: 960px) {
+  #IMG_Home_1{
+	  display: none;
+  }
+  #IMG_Home_2{
+	  display: block;
+  }
+  #IMG_Home_3{
+	  display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #IMG_Home_1{
+	  display: none;
+  }
+  #IMG_Home_2{
+	  display: none;
+  }
+  #IMG_Home_3{
+	  display: block;
+  }
+}
